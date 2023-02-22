@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<img src="s1.jpg" width="200px" height="100px">
+		<br>
+		<a href="#">Home</a>
+		<a href="#">Products</a>
+		<a href="#">Customers</a>
+		<a href="#">Vendors</a>
+		<a href="#">Statistics</a>
+		<a href="#">Invoice</a>
+		
+	</nav>
+	<div class="container">
+	<div class="title">
+		<h2>Customer Registration Form</h2>
+	</div>
+	<br><br>
+		<form id="customer-form" action="submit.php" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address" required>
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" required>
+			<label for="alt-phone">Alternative Phone Number:</label>
+			<input type="tel" id="alt-phone" name="alt-phone">
+			<label for="email">Email Address:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="credit-points">Credit Points:</label>
+			<input type="number" id="credit-points" name="credit-points" required>
+			<label for="dob">Date Of Birth:</label>
+			<input type="date" id="dob" name="dob" required>
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+			<label for="occupation">Occupation:</label>
+			<input type="text" id="occupation" name="occupation">
+			<label for="about">About:</label>
+			<textarea id="about" name="about"></textarea>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,8 @@
+product id 
+product name
+company belong id
+price
+order id
+image
+desc id(product type id)
+emi amount
