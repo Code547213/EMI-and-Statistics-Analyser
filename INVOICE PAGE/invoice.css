@@ -1,0 +1,120 @@
+table {
+	
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 89%;
+	position: relative;
+	margin-left:45px;
+	
+}
+
+tr {
+	
+	border: 3px solid black;
+	
+	width: 500px;
+	
+	
+}
+
+td:nth-child(1)
+{
+  background-color: grey;
+}
+
+td:nth-child(2)
+{
+
+  background-color: #00DD88 ;
+}
+
+td:nth-child(3)
+{
+  background-color: grey;
+}
+td:nth-child(4)
+{
+  background-color:#00BB58  ;
+}
+th {
+	font-family: Arial;
+	border-bottom:  solid black;
+}
+
+td{
+	font-family: Arial;
+	text-align: center;
+	color:white;
+	border-radius: 5px;
+
+}
+.product_list{
+	margin-top:50px;
+	border: 1px solid black;
+	width: 770px;
+	border-radius: 17px;
+	height: 500px;
+	position: relative;
+	margin-left:380px;
+	box-shadow: 0 0 3px rgb(0 0 0);
+	background-color: white;
+	
+}
+
+h2 {
+	font-family: Arial;
+	background: green;
+	color: white;
+	width: 89%;
+	height: 27px;
+	position: relative;
+	margin-left:45px;
+	border-radius: 10px;
+}
+
+nav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	left: 0;
+	background-color: rgb(0, 0, 0);
+	overflow-x: scroll;
+	
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav a: hover {
+	background-color: #555;
+}
+
+.main {
+	margin-left: 200px;
+	padding: 20px;
+}
+body{
+
+	background-color:#234d7ede;
+}
+
+button{
+	width:100px;
+	height: 50px;
+	font-family: Arial;
+	color: white;
+	background-color:#dd2202;
+	border-radius: 4px;
+	position: relative;
+	margin-left:340px;
+	border:1px solid white;
+	font-size: 14px;
+
+}
